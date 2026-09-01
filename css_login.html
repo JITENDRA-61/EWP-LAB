@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Online Book Store - Login</title>
+
+    <style>
+        body {
+            background-color: #FFF8DC;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: darkred;
+            font-style: italic;
+            text-shadow: 2px 2px 5px gray;
+        }
+
+        h2 {
+            text-align: center;
+            color: darkgreen;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        table {
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            border: 2px solid gray;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px lightgray;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: 220px;
+            padding: 8px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        button {
+            background-color: navy;
+            color: white;
+            padding: 8px 18px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkred;
+        }
+
+        a {
+            text-decoration: none;
+            color: navy;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: darkred;
+        }
+
+        marquee {
+            background-color: orange;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        hr {
+            border: 1px solid gray;
+        }
+
+        .footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>📚 Online Book Store 📚</h1>
+
+    <hr>
+
+    <h2>🔐 Login Page</h2>
+
+    <p>
+        Welcome! Please login to access your favorite books.
+    </p>
+
+    <form>
+
+        <table>
+
+            <tr>
+                <td><b>Email :</b></td>
+                <td>
+                    <input type="email"
+                           placeholder="Enter your email"
+                           required>
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>Password :</b></td>
+                <td>
+                    <input type="password"
+                           placeholder="Enter your password"
+                           required>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="checkbox">
+                    Remember Me
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">🔓 Login</button>
+                    &nbsp;&nbsp;
+                    <button type="reset">🗑 Clear</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+    <p>
+        New User?
+        <a href="register.html">Register Here</a>
+    </p>
+
+    <p>
+        <a href="#">Forgot Password?</a>
+    </p>
+
+    <hr>
+
+    <marquee behavior="scroll" direction="right">
+        📚 "A reader lives a thousand lives before he dies."
+    </marquee>
+
+    <p>
+        <b>📖 Read More • Learn More • Grow More 📖</b>
+    </p>
+
+    <div class="footer">
+        © 2026 Online Book Store | All Rights Reserved
+    </div>
+
+</body>
+
+</html>
