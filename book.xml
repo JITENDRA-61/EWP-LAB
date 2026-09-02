@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE bookstore SYSTEM "d.dtd">
+
+<bookstore>
+
+    <book>
+        <id>101</id>
+        <title>The Alchemist</title>
+        <author>Paulo Coelho</author>
+        <category>Fiction</category>
+        <price>399</price>
+        <year>1988</year>
+    </book>
+
+    <book>
+        <id>102</id>
+        <title>Atomic Habits</title>
+        <author>James Clear</author>
+        <category>Self Help</category>
+        <price>499</price>
+        <year>2018</year>
+    </book>
+
+    <book>
+        <id>103</id>
+        <title>Wings of Fire</title>
+        <author>A. P. J. Abdul Kalam</author>
+        <category>Biography</category>
+        <price>299</price>
+        <year>1999</year>
+    </book>
+
+</bookstore>
