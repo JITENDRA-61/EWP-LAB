@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚 Book Catalogue</title>
+    <link rel="stylesheet" href="catalouge.css">
+    <script src="catlouge.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>📚 Online Book Store</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="catalogue.html">Catalogue</a>
+            <a href="login.html">Login</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="catalogue">
+        <h2>📖 Our Book Catalogue</h2>
+
+        <input type="text" id="searchBox"
+               placeholder="Search for a book..."
+               onkeyup="searchBooks()">
+
+        <div class="books" id="bookList">
+
+            <div class="book">
+                <h3>📘 The Alchemist</h3>
+                <p>Author: Paulo Coelho</p>
+                <p class="price">₹399</p>
+                <button onclick="addToCart('The Alchemist')">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="book">
+                <h3>📕 Atomic Habits</h3>
+                <p>Author: James Clear</p>
+                <p class="price">₹499</p>
+                <button onclick="addToCart('Atomic Habits')">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="book">
+                <h3>📗 Rich Dad Poor Dad</h3>
+                <p>Author: Robert Kiyosaki</p>
+                <p class="price">₹350</p>
+                <button onclick="addToCart('Rich Dad Poor Dad')">
+                    Add to Cart
+                </button>
+            </div>
+
+            <div class="book">
+                <h3>📙 Wings of Fire</h3>
+                <p>Author: A. P. J. Abdul Kalam</p>
+                <p class="price">₹299</p>
+                <button onclick="addToCart('Wings of Fire')">
+                    Add to Cart
+                </button>
+            </div>
+
+        </div>
+
+        <p id="cart">🛒 Cart: 0 books</p>
+
+    </section>
+
+    <script src="catalouge.js"></script>
+
+</body>
+</html>
